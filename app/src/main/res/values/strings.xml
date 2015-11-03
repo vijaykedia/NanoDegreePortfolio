@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NanoDegreePortfolio</string>
+    <string name="action_settings">Settings</string>
+    <string name="nano_degree_app_title">My NanoDegree Apps!</string>
+</resources>
