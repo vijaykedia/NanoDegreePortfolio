@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#81D4FA"
+    android:background="@color/blueBackGround"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
@@ -13,18 +13,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/nano_degree_app_title"
-        android:textSize="24sp"
-        android:layout_marginTop="24sp"
+        android:layout_gravity="center"
         android:layout_marginBottom="24sp"
-        android:layout_gravity="center" />
+        android:layout_marginTop="24sp"
+        android:text="@string/nano_degree_app_title"
+        android:textSize="24sp" />
 
     <ListView
         android:id="@+id/app_list_view"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="20sp"
         android:layout_marginRight="20sp"
-        android:dividerHeight="10sp"
-        />
+        android:dividerHeight="10sp" />
 </LinearLayout>
